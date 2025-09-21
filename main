@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Practice</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+    }
+    body {
+      height: 100vh;
+    }
+    .header {
+      background-color: #95d5b2; 
+      height: 30vh;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: 20px;
+    }
+    .main {
+      background-color: #ffb3c6; 
+      height: 40vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .footer {
+      background-color: #cdb4db; 
+      height: 30vh;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 20px;
+    }
+    .text {
+      font-size: 22px;
+      color: #333;
+      font-weight: bold;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <p class="text">header</p>
+  </header>
+  <main class="main">
+    <p class="text">main</p>
+  </main>
+  <footer class="footer">
+    <p class="text">footer</p>
+  </footer>
+</body>
+</html>
